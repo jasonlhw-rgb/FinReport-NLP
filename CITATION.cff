@@ -5,13 +5,11 @@ version: 0.1.0
 date-released: "2026-09-04"
 type: software
 authors:
-  - family-names: "Li"
-    given-names: "H. W."
+  - name: "jasonlhw-rgb"
     email: jason.lhw2025@gmail.com
     alias: jasonlhw-rgb
 contact:
-  - family-names: "Li"
-    given-names: "H. W."
+  - name: "jasonlhw-rgb"
     email: jason.lhw2025@gmail.com
 license: MIT
 repository-code: "https://github.com/jasonlhw-rgb/FinReport-NLP"
