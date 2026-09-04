@@ -62,6 +62,11 @@ Large-scale extraction results (~**22,800** output files; sample MD&A extracts o
 
 ![mode7 extraction results](docs/images/mode7_extraction_results.png)
 
+Packaged spaCy model directory layout (`ner` / `tokenizer` / `vocab` + `config.cfg` / `meta.json`).
+Load it with `spacy.load("models/mode7")` or the CLI below:
+
+![mode7 package structure](docs/images/mode7_package_structure.png)
+
 ```bash
 python scripts/extract_sections.py \
   --input path/to/txt_reports \
