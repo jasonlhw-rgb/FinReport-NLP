@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "FinReport-NLP: Large-scale NLP-based information extraction from financial reports"
+version: 0.1.0
+date-released: "2026-09-04"
+type: software
+authors:
+  - family-names: "FinReport-NLP Contributors"
+license: MIT
+repository-code: "https://github.com/jasonlhw-rgb/FinReport-NLP"
+abstract: >-
+  FinReport-NLP is an NLP pipeline for extracting target sections from
+  large-scale financial reports using spaCy NER and hybrid rule-based methods.
+keywords:
+  - NLP
+  - financial reports
+  - information extraction
+  - spaCy
+  - NER
+  - document AI

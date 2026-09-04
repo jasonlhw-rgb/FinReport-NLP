@@ -1,0 +1,16 @@
+model:
+  lang: zh
+  label: TARGET_SECTION
+  epochs: 20
+  batch_size: 4
+  dropout: 0.2
+
+paths:
+  sample_data: data/sample/sample_training_data.json
+  model_dir: models/target_section_ner
+  output_dir: outputs
+
+extraction:
+  # Prefer regex markers when available; otherwise use NER model
+  use_rules_first: true
+  default_section: "管理层讨论与分析"

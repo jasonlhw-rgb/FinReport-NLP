@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+config.ini
+
+# Local / private data (do not publish)
+data/raw/
+data/private/
+data/processed/
+*_private/
+
+# Original working directories from historical project (local only)
+mode7/
+工作文件_txt文件/
+工作文件_txt文件_含关键词文件/
+工作文件_txt文件_提取结果/
+工作文件_txt文件_管理层讨论与分析_提取结果_去掉后的/
+源文件/
+【管理层讨论与分析】*/
+【管理层讨论与分析】内容提取任务文件夹/
+
+# Historical training corpora & process artifacts (local only)
+training_data.json
+training_data2.json
+training_data3.json
+training_data6.json
+training_data7.json
+training_data7_副本.json
+input.txt
+output.json
+*.xlsx
+~$*.xlsx
+模型终端截图.jpg
+NLP-网站聊天GPT.pdf
+
+# Historical experimental scripts (kept on disk; see docs/development-history.md)
+pdf下载.py
+extract_agent6.py
+extract_agent7.py
+extract_with_trained_model.py
+pdf_to_txt_pdfplumber_优化.py
+0_*.py
+1_*.py
+2_*.py
+3_*.py
+匹配*.py
+去掉*.py
+
+# Financial documents
+*.pdf
+*.doc
+*.docx
+
+# Temporary files
+tmp/
+temp/
+cache/
+
+# Outputs / logs
+outputs/
+logs/
+*.log
+
+# Large model weight formats (publish via Release / Hub instead)
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
