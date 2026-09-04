@@ -120,10 +120,10 @@ after the model card.
 Similar to HF: create a model repo, upload `models/mode7`, write a Chinese
 model card, link GitHub + datasets.
 
-## 5. Suggested order
+## 5. Status (2026-09)
 
-1. Keep `models/mode7` on GitHub (done)
-2. Create HF model repo + model card
-3. (Optional) GitHub Release zip
-4. (Optional) Zenodo DOI
-5. (Later) HF Space demo
+1. Keep `models/mode7` on GitHub — **done**
+2. HF model repo + model card — **done** → https://huggingface.co/jasonlhw-rgb/finreport-nlp-mode7
+3. GitHub Release zip — **done** → https://github.com/jasonlhw-rgb/FinReport-NLP/releases/tag/v0.1.0
+4. Zenodo DOI — **needs your Zenodo login** → see [`zenodo-setup.md`](zenodo-setup.md)
+5. (Later) HF Space demo — optional
