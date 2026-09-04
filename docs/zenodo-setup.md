@@ -1,27 +1,21 @@
 # Zenodo DOI Setup
 
-Zenodo can mint a **DOI** for this repository after it is linked to GitHub.
-This cannot be fully completed from the CLI without your Zenodo login.
+## Status: completed
 
-## Steps (about 5 minutes)
+DOI: **[10.5281/zenodo.22304240](https://doi.org/10.5281/zenodo.22304240)**
 
-1. Make sure the GitHub repo is **Public**  
-   https://github.com/jasonlhw-rgb/FinReport-NLP
+Synced via GitHub Release `v0.1.1` after enabling the repository in
+Zenodo → GitHub settings.
 
-2. Sign in to Zenodo with GitHub (or link GitHub in account settings):  
-   https://zenodo.org/account/settings/github/
+The DOI is recorded in:
 
-3. Find **FinReport-NLP** in the repository list and flip **ON**.
+- [`CITATION.cff`](../CITATION.cff)
+- [`README.md`](../README.md) (badge + citation block)
+- [`.zenodo.json`](../.zenodo.json) (deposit metadata helper)
 
-4. Prefer creating / syncing a GitHub Release (e.g. `v0.1.0`).  
-   Zenodo will create a deposit and assign a DOI such as `10.5281/zenodo.xxxxxxx`.
+## For future versions
 
-5. Open the Zenodo record → copy the DOI → send it back (or update locally):
-   - `CITATION.cff` → add `doi: "10.5281/zenodo.xxxxxxx"`
-   - `README.md` Citation section → add the badge/link
-
-Repository metadata for Zenodo is prepared in [`.zenodo.json`](../.zenodo.json).
-
-## After you have the DOI
-
-Reply with the DOI string, and it can be written into `CITATION.cff` / README automatically.
+1. Keep Zenodo ↔ GitHub link enabled
+2. Create a new GitHub Release (e.g. `v0.2.0`) with notes + assets
+3. Zenodo will mint a **version DOI**; the concept DOI may also be shown on the Zenodo page
+4. Update `CITATION.cff` / README with the newest version DOI when citing a specific release

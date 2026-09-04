@@ -125,5 +125,5 @@ model card, link GitHub + datasets.
 1. Keep `models/mode7` on GitHub — **done**
 2. HF model repo + model card — **done** → https://huggingface.co/jasonlhw-rgb/finreport-nlp-mode7
 3. GitHub Release zip — **done** → https://github.com/jasonlhw-rgb/FinReport-NLP/releases/tag/v0.1.0
-4. Zenodo DOI — **needs your Zenodo login** → see [`zenodo-setup.md`](zenodo-setup.md)
+4. Zenodo DOI — **done** → https://doi.org/10.5281/zenodo.22304240
 5. (Later) HF Space demo — optional

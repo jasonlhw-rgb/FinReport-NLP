@@ -2,6 +2,7 @@
 
 > 开源项目：[FinReport-NLP](https://github.com/jasonlhw-rgb/FinReport-NLP)  
 > 预训练模型：[`mode7`（GitHub / Hugging Face）](https://huggingface.co/jasonlhw-rgb/finreport-nlp-mode7)  
+> DOI：https://doi.org/10.5281/zenodo.22304240  
 > 联系邮箱：jason.lhw2025@gmail.com
 
 两年前，我接到一个很具体、也很「笨重」的任务：面对大约 **22,800** 份财务报告文本，把其中的「管理层讨论与分析」（MD&A）等目标章节自动抽出来，交给一位博士做研究。

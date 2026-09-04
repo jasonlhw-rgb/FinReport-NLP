@@ -6,6 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![spaCy](https://img.shields.io/badge/NLP-spaCy%20NER-orange.svg)](https://spacy.io/)
 [![Model](https://img.shields.io/badge/Model-mode7-important.svg)](models/mode7/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22304240.svg)](https://doi.org/10.5281/zenodo.22304240)
 
 FinReport-NLP is an NLP-based document information extraction pipeline designed
 to automatically identify and extract target sections from large-scale financial
@@ -71,7 +72,7 @@ python scripts/extract_sections.py \
 **Downloads**
 
 - In-repo model: [`models/mode7/`](models/mode7/)
-- GitHub Release asset: [`mode7-spacy.zip`](https://github.com/jasonlhw-rgb/FinReport-NLP/releases/download/v0.1.0/mode7-spacy.zip)
+- GitHub Release asset: [`mode7-spacy.zip`](https://github.com/jasonlhw-rgb/FinReport-NLP/releases/download/v0.1.1/mode7-spacy.zip)
 - Hugging Face: [jasonlhw-rgb/finreport-nlp-mode7](https://huggingface.co/jasonlhw-rgb/finreport-nlp-mode7)
 
 Publishing notes: [`docs/publishing.md`](docs/publishing.md).
@@ -268,7 +269,7 @@ a production-ready financial data service.
 - [x] Publish pretrained **mode7** in-repo
 - [x] Mirror mode7 on Hugging Face Model Hub
 - [x] GitHub Release with `mode7-spacy.zip`
-- [ ] Zenodo DOI (enable GitHub→Zenodo, then sync release)
+- [x] Zenodo DOI ([10.5281/zenodo.22304240](https://doi.org/10.5281/zenodo.22304240))
 - [ ] Evaluation benchmarks (Precision / Recall / F1)
 - [ ] Stronger preprocessing for heterogeneous report layouts
 - [ ] Multilingual / multi-section support
@@ -296,11 +297,13 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Citation
 
-If you use this project in research, please cite it using [`CITATION.cff`](CITATION.cff).
+If you use this project in research, please cite:
 
-After Zenodo is linked, a DOI will also be listed here (see [`docs/zenodo-setup.md`](docs/zenodo-setup.md)).
+> jasonlhw-rgb. (2026). *FinReport-NLP: Large-scale NLP-based information extraction from financial reports* (v0.1.1). Zenodo. https://doi.org/10.5281/zenodo.22304240
 
-Technical write-up (Zhihu / Juejin ready): [`docs/article-zh.md`](docs/article-zh.md).
+- DOI: https://doi.org/10.5281/zenodo.22304240
+- Machine-readable: [`CITATION.cff`](CITATION.cff)
+- Technical write-up: [`docs/article-zh.md`](docs/article-zh.md)
 
 ---
 
