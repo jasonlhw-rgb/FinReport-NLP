@@ -57,6 +57,10 @@ Training terminal log (20 epochs; loss converges; then batch extraction):
 
 ![mode7 training terminal](docs/images/mode7_training_terminal.jpg)
 
+Large-scale extraction results (~**22,800** output files; sample MD&A extracts opened):
+
+![mode7 extraction results](docs/images/mode7_extraction_results.png)
+
 ```bash
 python scripts/extract_sections.py \
   --input path/to/txt_reports \
@@ -64,8 +68,13 @@ python scripts/extract_sections.py \
   --model models/mode7
 ```
 
-Want to publish the same model on Hugging Face / Zenodo / ModelScope?
-See [`docs/publishing.md`](docs/publishing.md).
+**Downloads**
+
+- In-repo model: [`models/mode7/`](models/mode7/)
+- GitHub Release asset: [mode7-spacy.zip](https://github.com/jasonlhw-rgb/FinReport-NLP/releases)
+- Hugging Face: [jasonlhw-rgb/finreport-nlp-mode7](https://huggingface.co/jasonlhw-rgb/finreport-nlp-mode7)
+
+Publishing notes: [`docs/publishing.md`](docs/publishing.md).
 
 ---
 
@@ -257,7 +266,9 @@ a production-ready financial data service.
 ## Roadmap
 
 - [x] Publish pretrained **mode7** in-repo
-- [ ] Mirror mode7 on Hugging Face Model Hub
+- [x] Mirror mode7 on Hugging Face Model Hub
+- [x] GitHub Release with `mode7-spacy.zip`
+- [ ] Zenodo DOI (enable GitHub→Zenodo, then sync release)
 - [ ] Evaluation benchmarks (Precision / Recall / F1)
 - [ ] Stronger preprocessing for heterogeneous report layouts
 - [ ] Multilingual / multi-section support
@@ -286,6 +297,10 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Citation
 
 If you use this project in research, please cite it using [`CITATION.cff`](CITATION.cff).
+
+After Zenodo is linked, a DOI will also be listed here (see [`docs/zenodo-setup.md`](docs/zenodo-setup.md)).
+
+Technical write-up (Zhihu / Juejin ready): [`docs/article-zh.md`](docs/article-zh.md).
 
 ---
 
