@@ -71,7 +71,7 @@ python scripts/extract_sections.py \
 **Downloads**
 
 - In-repo model: [`models/mode7/`](models/mode7/)
-- GitHub Release asset: [mode7-spacy.zip](https://github.com/jasonlhw-rgb/FinReport-NLP/releases)
+- GitHub Release asset: [`mode7-spacy.zip`](https://github.com/jasonlhw-rgb/FinReport-NLP/releases/download/v0.1.0/mode7-spacy.zip)
 - Hugging Face: [jasonlhw-rgb/finreport-nlp-mode7](https://huggingface.co/jasonlhw-rgb/finreport-nlp-mode7)
 
 Publishing notes: [`docs/publishing.md`](docs/publishing.md).
