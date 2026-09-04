@@ -5,12 +5,21 @@ version: 0.1.0
 date-released: "2026-09-04"
 type: software
 authors:
-  - family-names: "FinReport-NLP Contributors"
+  - family-names: "Li"
+    given-names: "H. W."
+    email: jason.lhw2025@gmail.com
+    alias: jasonlhw-rgb
+contact:
+  - family-names: "Li"
+    given-names: "H. W."
+    email: jason.lhw2025@gmail.com
 license: MIT
 repository-code: "https://github.com/jasonlhw-rgb/FinReport-NLP"
+url: "https://github.com/jasonlhw-rgb/FinReport-NLP"
 abstract: >-
   FinReport-NLP is an NLP pipeline for extracting target sections from
   large-scale financial reports using spaCy NER and hybrid rule-based methods.
+  The final mode7 model was applied to approximately 22,800 plain-text reports.
 keywords:
   - NLP
   - financial reports

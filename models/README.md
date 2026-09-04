@@ -1,14 +1,46 @@
 # Models
 
-Trained spaCy models are **not** committed to this repository by default.
+## mode7 (final production model) — included
 
-## Local historical model
+The final trained spaCy Chinese NER model from the original project is published
+in this repository:
 
-During the original project (2024–2025), a spaCy Chinese NER model was trained
-and saved locally as `mode7/` (label: `TARGET_SECTION`). That directory is
-gitignored because it belongs to the private working tree.
+```text
+models/mode7/
+```
 
-To reproduce training from the sample dataset:
+| Item | Detail |
+|------|--------|
+| Framework | spaCy `>=3.8.3,<3.9.0` |
+| Base | `spacy.blank("zh")` + `ner` |
+| Label | `TARGET_SECTION` |
+| Size | ~3.7 MB |
+| Role | Final model after iterative training rounds (mode1 → mode7) |
+
+### Load and extract
+
+```bash
+python scripts/extract_sections.py \
+  --input data/sample/reports \
+  --output outputs/ \
+  --model models/mode7
+```
+
+```python
+import spacy
+nlp = spacy.load("models/mode7")
+doc = nlp(open("report.txt", encoding="utf-8").read())
+print([ent.text for ent in doc.ents if ent.label_ == "TARGET_SECTION"])
+```
+
+### Training evidence
+
+See the original training terminal log (loss converging over 20 epochs, then
+batch extraction):
+
+![mode7 training terminal](../docs/images/mode7_training_terminal.jpg)
+
+### Retrain a demo model from sample data
 
 ```bash
 python scripts/train.py \
@@ -16,9 +48,7 @@ python scripts/train.py \
   --output models/target_section_ner
 ```
 
-For larger production models, prefer publishing via:
+### Publish elsewhere
 
-- GitHub Release assets
-- Hugging Face Model Hub
-
-and linking them from the README.
+See [`docs/publishing.md`](../docs/publishing.md) for Hugging Face, Zenodo,
+ModelScope, and GitHub Releases.

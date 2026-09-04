@@ -1,16 +1,24 @@
 # Dataset
 
-The original financial-report corpus used during development is **not** included
-in this repository, because it contains text derived from real filings.
+This repository only ships a small **synthetic** sample under `data/sample/`
+for quick demos. Larger corpora used in the original project are hosted
+externally (for academic / research use).
 
-A small **synthetic** sample dataset is provided for demonstration and
-reproducibility:
+## External corpora (research access)
 
-- `sample/sample_training_data.json` — annotated training records
-- `sample/reports/` — plain-text demo reports
+| Resource | Contents | Link |
+|----------|----------|------|
+| Full plain-text corpus | ~**22,800** financial-report `.txt` files | https://caiwushi.net/ |
+| Training / test / smaller datasets | Annotated training sets, test sets, and related smaller files | [Google Drive folder](https://drive.google.com/drive/folders/19Qco5VdHnL1niEejzCE-LQr3aiEFF6E-?usp=drive_link) |
 
-Users should provide their own **legally obtained** financial reports when
-running the pipeline at scale.
+Please respect applicable copyright and data-use rules when downloading or
+redistributing filing-derived text. For questions about academic reuse,
+contact: **jason.lhw2025@gmail.com**.
+
+## In-repo sample
+
+- `sample/sample_training_data.json` — annotated training records (synthetic)
+- `sample/reports/` — plain-text demo reports (synthetic)
 
 ## Training record schema
 
