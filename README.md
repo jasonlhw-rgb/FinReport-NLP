@@ -1,5 +1,7 @@
 # FinReport-NLP
 
+**English** | [简体中文](README_ZH.md)
+
 > Large-scale NLP-based information extraction from financial reports.
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
@@ -224,7 +226,8 @@ FinReport-NLP/
 ├── examples/
 ├── docs/                  # Architecture, history, publishing guide
 ├── tests/
-├── README.md
+├── README.md              # English
+├── README_ZH.md           # 简体中文
 ├── LICENSE
 └── requirements.txt
 ```
