@@ -24,6 +24,7 @@ python scripts/validate_dataset.py
 - Prefer synthetic or redistributable samples under `data/sample/`
 - Keep scripts CLI-friendly (`argparse`), avoid hardcoded local paths
 - Match existing code style; add a short note in `docs/` when behavior changes
+- Keep **`README.md` (English) and `README_ZH.md` (简体中文) in sync**. If you change features, links, commands, or model/download information in one file, update the other in the same PR.
 
 ## Reporting issues
 

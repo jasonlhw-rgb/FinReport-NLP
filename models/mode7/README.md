@@ -16,7 +16,11 @@ pipeline_tag: token-classification
 
 # FinReport-NLP mode7
 
+**English** | [简体中文项目说明](https://github.com/jasonlhw-rgb/FinReport-NLP/blob/main/README_ZH.md)
+
 Final spaCy Chinese NER model from **[FinReport-NLP](https://github.com/jasonlhw-rgb/FinReport-NLP)** for extracting target sections (e.g. 管理层讨论与分析 / MD&A) from financial reports.
+
+**中文简介：** 这是 FinReport-NLP 的最终 spaCy 中文 NER 模型（mode7），用于从财务报告中抽取「管理层讨论与分析」等目标章节。完整项目说明、安装与数据链接见仓库中文 README：[README_ZH.md](https://github.com/jasonlhw-rgb/FinReport-NLP/blob/main/README_ZH.md)。
 
 ## Model details
 
@@ -66,6 +70,7 @@ python scripts/extract_sections.py \
 ## Links
 
 - GitHub: https://github.com/jasonlhw-rgb/FinReport-NLP
+- Chinese README: https://github.com/jasonlhw-rgb/FinReport-NLP/blob/main/README_ZH.md
 - Release zip: https://github.com/jasonlhw-rgb/FinReport-NLP/releases
 - Contact: jason.lhw2025@gmail.com
 
